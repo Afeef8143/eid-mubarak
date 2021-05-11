@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EID MUBARAK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <section>
+        <img src="mosque.jpg" class="mosque">
+        <header>
+            <a href="#"  class="logo">Eid Mubarak</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#" class="active" style="--i:1;">Home</a></li>
+                <li><a href="#" style="--i:2;" >About</a></li>
+                <li><a href="#" style="--i:3;" >Calendar</a></li>
+                <li><a href="#" style="--i:4;" >Blog</a></li>
+                <li><a href="#" style="--i:5;" >Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Happy Eid Mubarak</h2>
+               <p> I hope this Eid opens your mind and soul to love and faith towards Allah.May Allah bless you. Eid Mubarak! </p>
+               <a href="#">Read More</a>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="" style="--i:12;"><img src="facebook.png"></a></li>
+            <li><a href="" style="--i:13;"><img src="twitter.png"></a></li>
+            <li><a href="" style="--i:14;"><img src="instagram.png"></a></li>
+        </ul>
+    </section>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
